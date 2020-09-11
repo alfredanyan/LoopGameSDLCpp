@@ -1,6 +1,8 @@
 #include "Game.h"
+
 Game::Game()
 {}
+
 Game::~Game()
 {}
 
@@ -34,7 +36,10 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 	}
 
 }
-void Game:: update(){}
+void Game::update(){
+	cnt++;
+	std::cout << cnt << std::endl;
+}
 void Game::render(){
 	SDL_RenderClear(renderer);
 	SDL_RenderPresent(renderer);
