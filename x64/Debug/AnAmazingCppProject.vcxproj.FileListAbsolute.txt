@@ -1,0 +1,2 @@
+C:\Users\alfre\source\repos\AnAmazingCppProject\x64\Debug\AnAmazingCppProject.exe
+C:\Users\alfre\source\repos\AnAmazingCppProject\x64\Debug\AnAmazingCppProject.pdb
